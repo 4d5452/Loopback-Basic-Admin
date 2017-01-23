@@ -2,6 +2,26 @@
   "name": "AppRole",
   "base": "Role",
   "properties": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "application-admin",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "application-admin",
+      "permission": "ALLOW"
+    }
+  ],
   "relations": {
     "principals": {
       "type": "hasMany",

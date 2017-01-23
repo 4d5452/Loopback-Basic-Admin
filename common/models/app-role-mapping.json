@@ -2,6 +2,26 @@
   "name": "AppRoleMapping",
   "base": "RoleMapping",
   "properties": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "application-admin",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "application-admin",
+      "permission": "ALLOW"
+    }
+  ],
   "relations": {
     "role": {
       "type": "belongsTo",
