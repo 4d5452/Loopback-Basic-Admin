@@ -1,0 +1,21 @@
+{
+  "name": "AppUser",
+  "base": "User",
+  "properties": {},
+  "options": {
+    "emailVerificationRequired": false
+  },
+  "hidden": [],
+  "acls": [
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "application-admin",
+      "permission": "ALLOW"
+    }
+  ],
+  "relations": {},
+  "mixins": {
+    "Timestamp": {}
+  }
+}

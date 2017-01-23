@@ -1,0 +1,15 @@
+{
+  "name": "AppRole",
+  "base": "Role",
+  "properties": {},
+  "relations": {
+    "principals": {
+      "type": "hasMany",
+      "model": "AppRoleMapping",
+      "foreignKey": "roleId"
+    }
+  },
+  "mixins": {
+    "Timestamp": {}
+  }
+}

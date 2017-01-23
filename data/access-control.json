@@ -1,0 +1,22 @@
+{
+  "ids": {
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "AppRole": 2,
+    "Scope": 1,
+    "AppRoleMapping": 2
+  },
+  "models": {
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "AppRole": {
+      "1": "{\"name\":\"application-admin\",\"description\":\"Application Admin\",\"created\":\"2017-01-23T16:30:17.704Z\",\"modified\":\"2017-01-23T16:30:17.705Z\",\"id\":1}"
+    },
+    "Scope": {},
+    "AppRoleMapping": {
+      "1": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":1,\"created\":\"2017-01-23T18:25:16.052Z\",\"modified\":\"2017-01-23T18:25:16.053Z\",\"id\":1}"
+    }
+  }
+}

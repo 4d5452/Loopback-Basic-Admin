@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "AppUser": 2
+  },
+  "models": {
+    "AppUser": {
+      "1": "{\"username\":\"admin\",\"password\":\"$2a$10$o5JKFQNI39t.etuxOMQaXumGOnfONEBvPnfzcA6tp6KcN6QoDlxgu\",\"email\":\"jim@admin.com\",\"emailVerified\":false,\"created\":\"2017-01-23T16:39:32.919Z\",\"modified\":\"2017-01-23T16:39:32.919Z\",\"id\":1}"
+    }
+  }
+}

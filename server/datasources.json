@@ -1,0 +1,22 @@
+{
+  "access-control": {
+    "name": "access-control",
+    "connector": "memory",
+    "file": "./data/access-control.json"
+  },
+  "app-user": {
+    "name": "app-users",
+    "connector": "memory",
+    "file": "./data/user-info.json"
+  },
+  "application-info": {
+    "name": "application-info",
+    "connector": "memory",
+    "file": "./data/app-info.json"
+  },
+  "data": {
+    "name": "data",
+    "connector": "memory",
+    "file": "./data/data.json"
+  }
+}

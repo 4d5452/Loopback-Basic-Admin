@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/commom/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "access-control",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "access-control",
+    "public": false
+  },
+  "Application": {
+    "dataSource": "application-info",
+    "public": false
+  },
+  "AppRole": {
+    "dataSource": "access-control",
+    "public": true
+  },
+  "AppRoleMapping": {
+    "dataSource": "access-control",
+    "public": true
+  },
+  "AppUser": {
+    "dataSource": "app-user",
+    "public": true
+  },
+  "Item": {
+    "dataSource": "data",
+    "public": true
+  },
+  "Scope": {
+    "dataSource": "access-control",
+    "public": false
+  }
+}

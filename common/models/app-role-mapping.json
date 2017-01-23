@@ -1,0 +1,15 @@
+{
+  "name": "AppRoleMapping",
+  "base": "RoleMapping",
+  "properties": {},
+  "relations": {
+    "role": {
+      "type": "belongsTo",
+      "model": "AppRole",
+      "foreignKey": "roleId"
+    }
+  },
+  "mixins": {
+    "Timestamp": {}
+  }
+}
